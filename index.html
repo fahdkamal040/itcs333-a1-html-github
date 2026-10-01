@@ -1,24 +1,77 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
 </head>
-<body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
 
-  <main> 
-    <img src="assets/profile.jpg" alt="this is an image">
-  </main>
-  
-  <p>TODO: build your profile page here.</p>
+<body>
+
+    <header>
+        <h1>Welcome to My Profile</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>My Profile</h2>
+
+            <img src="assets/profile.jpg" alt="A photo representing my profile" width="200">
+
+            <p>
+                Hello! My name is Fahad. I am a university student interested
+                in technology, information systems, and web development.
+            </p>
+
+            <p>
+                This website is a small personal profile created for my ITCS333
+                assignment to demonstrate HTML5 and GitHub workflow skills.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Interests</h2>
+
+            <ul>
+                <li>Web Development</li>
+                <li>Information Systems</li>
+                <li>Technology</li>
+                <li>Football</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>My Goals</h2>
+
+            <ol>
+                <li>Improve my HTML and web development skills.</li>
+                <li>Learn more about Git and GitHub.</li>
+                <li>Build useful and user-friendly websites.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Useful Link</h2>
+
+            <p>
+                You can learn more about web development through
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                    MDN Web Docs
+                </a>.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Profile. Created for ITCS333.</p>
+    </footer>
+
 </body>
 </html>
